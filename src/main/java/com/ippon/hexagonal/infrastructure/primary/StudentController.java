@@ -1,7 +1,7 @@
-package com.ippon.hexagonal.infrastructure;
+package com.ippon.hexagonal.infrastructure.primary;
 
 import com.ippon.hexagonal.application.StudentService;
-import com.ippon.hexagonal.domain.Student;
+import com.ippon.hexagonal.domain.model.Student;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,5 @@ public class StudentController {
     public void addStudentController(@RequestBody Student student) {
         studentService.addStudentService(student);
     }
-
-
 
 }

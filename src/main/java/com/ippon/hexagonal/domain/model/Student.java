@@ -1,4 +1,4 @@
-package com.ippon.hexagonal.domain;
+package com.ippon.hexagonal.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
 package com.ippon.hexagonal;
 
-import com.ippon.hexagonal.domain.Student;
-import com.ippon.hexagonal.infrastructure.StudentRepository;
+import com.ippon.hexagonal.domain.model.Student;
+import com.ippon.hexagonal.infrastructure.secondary.StudentRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -12,6 +12,11 @@ import java.util.List;
 @SpringBootApplication
 public class HexagonalApplication {
 
+//	public static void main(String[] args) {
+//		SpringApplication.run(HexagonalApplication.class, args);
+//	}
+
+//	 Local test
 	public static void main(String[] args) {
 		ConfigurableApplicationContext configurableApplicationContext =
 				SpringApplication.run(HexagonalApplication.class, args);

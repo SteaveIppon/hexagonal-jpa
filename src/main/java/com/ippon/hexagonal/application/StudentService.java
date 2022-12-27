@@ -1,7 +1,7 @@
 package com.ippon.hexagonal.application;
 
-import com.ippon.hexagonal.domain.Student;
-import com.ippon.hexagonal.infrastructure.StudentRepository;
+import com.ippon.hexagonal.domain.model.Student;
+import com.ippon.hexagonal.infrastructure.secondary.StudentRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

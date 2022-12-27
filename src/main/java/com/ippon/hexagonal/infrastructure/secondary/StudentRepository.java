@@ -1,6 +1,6 @@
-package com.ippon.hexagonal.infrastructure;
+package com.ippon.hexagonal.infrastructure.secondary;
 
-import com.ippon.hexagonal.domain.Student;
+import com.ippon.hexagonal.domain.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
